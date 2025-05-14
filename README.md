@@ -1,12 +1,10 @@
 # Inference‑Based Video Generation Using GANs
 
 **Team Members**  
-- [Your Name] (@your-github)  
-- [Teammate 1] (@teammate1)  
-- [Teammate 2] (@teammate2)  
+- Om Vishal (@omvshal)  
+- Pradyumn Vashisht 
+- Saksham Rana 
 
-**Supervisor:** Dr. [Supervisor Name]  
-**Date:** May 2025  
 
 ---
 
@@ -20,26 +18,24 @@ Our pipeline evolves through three experimental setups—each adding architectur
 ## 📂 Repository Structure
 
 inference-video-gan/
-│
 ├── code/
-│ ├── setup2.ipynb # Enhanced TGAN with residual blocks & BatchNorm
-│ ├── setup3.ipynb # Final TGAN with mixed‑precision & WGAN‑GP
-│ ├── evaluate_psnr_ssim.ipynb # PSNR & SSIM computation
-│ └── frames_to_video.ipynb # Assemble frames into MP4 videos
+│   ├── setup2.ipynb             # Enhanced TGAN with residual blocks & BatchNorm
+│   ├── setup3.ipynb             # Final TGAN with mixed‑precision & WGAN‑GP
+│   ├── evaluate_psnr_ssim.ipynb # PSNR & SSIM computation
+│   └── frames_to_video.ipynb    # Assemble frames into MP4 videos
 │
-├── dataset/ # Subset of UCF101 (BenchPress) used for experiments
-│ ├── train/ # Training video files
-│ └── val/ # Validation video files
+├── dataset/                     # Subset of UCF101 (BenchPress)
+│   ├── train/                   # Training video files
+│   └── val/                     # Validation video files
 │
-├── generated_frames/ # Model outputs (predicted frames)
-│ ├── setup1/ # Baseline TGAN frames
-│ ├── setup2/ # Residual‑block TGAN frames
-│ └── setup3/ # Mixed‑precision TGAN frames
+├── generated_frames/            # Model outputs (predicted frames)
+│   ├── setup1/                  # Baseline TGAN frames
+│   ├── setup2/                  # Residual‑block TGAN frames
+│   └── setup3/                  # Mixed‑precision TGAN frames
 │
-└── stitched_videos/ # Reconstructed demo videos
-├── video_8fps.mp4 # 8 fps generated video
-└── video_24fps.mp4 # 24 fps generated video
-
+└── stitched_videos/             # Reconstructed demo videos
+    ├── video_8fps.mp4           # 8 fps generated video
+    └── video_24fps.mp4          # 24 fps generated video
 
 ---
 
