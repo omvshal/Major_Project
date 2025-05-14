@@ -17,11 +17,14 @@ Our pipeline evolves through three experimental setups—each adding architectur
 
 ## 📂 Repository Structure
 
+## 📂 Repository Structure
+
+```text
 inference-video-gan/
 ├── code/
 │   ├── setup2.ipynb             # Enhanced TGAN with residual blocks & BatchNorm
 │   ├── setup3.ipynb             # Final TGAN with mixed‑precision & WGAN‑GP
-│   ├── evaluate_psnr_ssim.ipynb # PSNR & SSIM computation
+│   ├── evaluate_psnr_ssim.ipynb  # PSNR & SSIM computation
 │   └── frames_to_video.ipynb    # Assemble frames into MP4 videos
 │
 ├── dataset/                     # Subset of UCF101 (BenchPress)
@@ -36,7 +39,6 @@ inference-video-gan/
 └── stitched_videos/             # Reconstructed demo videos
     ├── video_8fps.mp4           # 8 fps generated video
     └── video_24fps.mp4          # 24 fps generated video
-
 ---
 
 ## 🔧 Installation & Setup
