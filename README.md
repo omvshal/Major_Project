@@ -15,7 +15,7 @@ Our pipeline evolves through three experimental setups—each adding architectur
 
 ---
 
-## 📂 Repository Structure
+
 
 ## 📂 Repository Structure
 
@@ -39,6 +39,7 @@ inference-video-gan/
 └── stitched_videos/             # Reconstructed demo videos
     ├── video_8fps.mp4           # 8 fps generated video
     └── video_24fps.mp4          # 24 fps generated video
+```text
 ---
 
 ## 🔧 Installation & Setup
