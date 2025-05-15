@@ -39,23 +39,23 @@ inference-video-gan/
 └── stitched_videos/             # Reconstructed demo videos
     ├── video_8fps.mp4           # 8 fps generated video
     └── video_24fps.mp4          # 24 fps generated video
-```text
+```
 ---
 
 ## 🔧 Installation & Setup
 
 1. **Clone the repository**  
    ```bash
-   git clone https://github.com/your-org/inference-video-gan.git
-   cd inference-video-gan
-Create and activate a virtual environment
+   git clone https://github.com/omvshal/Major_Project.git
 
 2. **Create and activate a virtual environment**
   python3 -m venv venv
   source venv/bin/activate
-3. **Install dependencies**
+
+4. **Install dependencies**
    pip install -r requirements.txt
-4. **Prepare the dataset**
+   
+6. **Prepare the dataset**
    Download the UCF101 BenchPress subset
    Place raw .avi files under dataset/train/ and dataset/val/
 
